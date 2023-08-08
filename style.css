@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(238, 95, 0);
+    border-radius: 5px;
+    height: 450px;
+    width: 350px;
+    backdrop-filter: blur(3px);
+}
+
+.form h4{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px 0 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form .login{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.form .login input,button{
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-size: 16px;
+
+}
+
+.form .login input{
+    background-color: #ffffff2e;
+    color: #fff;
+    letter-spacing: 1px;
+    text-indent: 5px;
+}
+
+.form .login input::placeholder{
+    color: #b3b3b3;
+    font-size: 14px;
+    
+}
+
+.login button{
+    background-color: rgb(238, 95, 0);
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.suggests{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.suggests input{
+    vertical-align: top;
+    background-color: rgb(238, 95, 0);
+}
+
+.suggests .forgot{
+    color: rgb(238, 95, 0);
+    cursor: pointer;
+    font-weight: 500;
+}
